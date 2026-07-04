@@ -13,6 +13,7 @@ hedgedoc_allow_anonymous: false
 hedgedoc_allow_anonymous_edits: false
 hedgedoc_allow_anonymous_views: true
 hedgedoc_enable_uploads: 'registered' # registered, all, none
+hedgedoc_external_link_whitelist: [] # ['example.com','trusted.org']
 
 # App --------------------------------------------------------------------------
 hedgedoc_app_cont_name: '{{ hedgedoc_service_name }}-app'

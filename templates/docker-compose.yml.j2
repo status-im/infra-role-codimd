@@ -29,6 +29,7 @@ services:
       CMD_ALLOW_ANONYMOUS: '{{ hedgedoc_allow_anonymous | to_json }}'
       CMD_ALLOW_ANONYMOUS_EDITS: '{{ hedgedoc_allow_anonymous_edits | to_json }}'
       CMD_ALLOW_ANONYMOUS_VIEWS: '{{ hedgedoc_allow_anonymous_views | to_json }}'
+      CMD_EXTERNAL_LINK_WHITELIST: '{{ hedgedoc_external_link_whitelist | join(",") }}'
       CMD_GOOGLE_CLIENTID: '{{ hedgedoc_gg_oauth_id | mandatory }}'
       CMD_GOOGLE_CLIENTSECRET: '{{ hedgedoc_gg_oauth_secret | mandatory }}'
       CMD_GITHUB_CLIENTID: '{{ hedgedoc_gh_oauth_id | mandatory }}'
