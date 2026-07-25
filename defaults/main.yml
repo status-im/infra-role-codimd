@@ -17,7 +17,7 @@ hedgedoc_external_link_whitelist: [] # ['example.com','trusted.org']
 
 # App --------------------------------------------------------------------------
 hedgedoc_app_cont_name: '{{ hedgedoc_service_name }}-app'
-hedgedoc_app_cont_tag: '1.11.0'
+hedgedoc_app_cont_tag: '1.11.1'
 hedgedoc_app_cont_image: 'quay.io/hedgedoc/hedgedoc:{{ hedgedoc_app_cont_tag }}'
 hedgedoc_app_cont_port: 3001
 hedgedoc_app_cont_vol: '{{ hedgedoc_service_path }}/app'
